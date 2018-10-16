@@ -1,0 +1,1000 @@
+ 1034  sudo chmod +wrx -R  sgx_files/
+ 1035  sudo chmod 770 -R  sgx_files/
+ 1036  sudo chmod 1770 -R  sgx_files/
+ 1037  sudo chmod 1770 -R  sgx_files
+ 1038  cd sgx_files/
+ 1039  sudo chmod 1777 -R  sgx_files
+ 1040  cd unipampa/linguagem\ c/
+ 1041  touch string.c
+ 1042  atom string.c 
+ 1043  gcc string.c -o s
+ 1044  ./s
+ 1045  gcc string.c -o s
+ 1046  ./s
+ 1047  gcc string.c -o s
+ 1048  ./s
+ 1049  gcc string.c -o s
+ 1050  ./s
+ 1051  gcc string.c -o s
+ 1052  ./s
+ 1053  gcc string.c -o s
+ 1054  ./s
+ 1055  gcc string.c -o s
+ 1056  ./s
+ 1057  gcc string.c -o s
+ 1058  ./s
+ 1059  gcc string.c -o s
+ 1060  ./s
+ 1061  gcc string.c -o s
+ 1062  ./s
+ 1063  gcc string.c -o s
+ 1064  ./s
+ 1065  gcc string.c -o s
+ 1066  ./s
+ 1067  gcc string.c -o s
+ 1068  ./s
+ 1069  gcc string.c -o s
+ 1070  ./s
+ 1071  gcc string.c -o s
+ 1072  ./s
+ 1073  gcc string.c -o s
+ 1074  ./s
+ 1075  gcc string.c -o s
+ 1076  ./s
+ 1077  gcc string.c -o s
+ 1078  ./s
+ 1079  gcc string.c -o s
+ 1080  ./s
+ 1081  gcc string.c -o s
+ 1082  ./s
+ 1083  gcc string.c -o s
+ 1084  ./s
+ 1085  gcc string.c -o s
+ 1086  ./s
+ 1087  gcc string.c -o s
+ 1088  ./s
+ 1089  cd ..
+ 1090  cd TSSI/cliente_sgx/
+ 1091  python cliente_tcp.py 
+ 1092  cd unipampa/TSSI/cliente_sgx/
+ 1093  ls
+ 1094  atom .
+ 1095  rm ./*.o
+ 1096  cd opensgx/opensgx/user/
+ 1097  ./test.sh test/openssl/teste.c 
+ 1098  ./test.sh test/openssl/teste
+ 1099  clear
+ 1100  ./test.sh test/openssl/teste
+ 1101  clear
+ 1102  ./test.sh test/openssl/teste
+ 1103  clear
+ 1104  ./test.sh test/openssl/teste
+ 1105  ./test.sh test/openssl/server
+ 1106  python
+ 1107  cd opensgx/opensgx/user/
+ 1108  ls
+ 1109  ./test.sh test/openssl/server
+ 1110  clear
+ 1111  ./test.sh test/openssl/server
+ 1112  clear
+ 1113  ./test.sh test/openssl/server
+ 1114  clear
+ 1115  ./test.sh test/openssl/server
+ 1116  clear
+ 1117  ./test.sh test/openssl/server
+ 1118  ./test.sh -i  test/openssl/server
+ 1119  ./test.sh   test/openssl/server
+ 1120  clear
+ 1121  ./test.sh   test/openssl/server
+ 1122  cd unipampa/TSSI/cliente_sgx/
+ 1123  ls
+ 1124  python cliente_tcp.py 
+ 1125  1 felipe dfdsdsf
+ 1126  python cliente_tcp.py 
+ 1127  cd opensgx/opensgx/user/
+ 1128  ls
+ 1129  ./test.sh   test/openssl/server
+ 1130  cd test/openssl/
+ 1131  pwd
+ 1132  cd ..
+ 1133  cd .
+ 1134  cd ..
+ 1135  ./test.sh   test/openssl/server
+ 1136  cd unipampa/TSSI/cliente_sgx/
+ 1137  ls
+ 1138  python cliente_tcp.py 
+ 1139  cd unipampa/POO/aula10/supeHeroi/
+ 1140  javac Jogo.java 
+ 1141  clclear
+ 1142  clear
+ 1143  clclear
+ 1144  javac Jogo.java 
+ 1145  clear
+ 1146  javac Jogo.java 
+ 1147  java Jogo.java 
+ 1148  java Jogo
+ 1149  clear
+ 1150  java Jogo.java 
+ 1151  javac Jogo.java 
+ 1152  java Jogo
+ 1153  java jogo
+ 1154  javac Jogo.java 
+ 1155  java jogo
+ 1156  java Jogo
+ 1157  javac Jogo.java 
+ 1158  java Jogo
+ 1159  javac Jogo.java 
+ 1160  java Jogo
+ 1161  javac Jogo.java 
+ 1162  java Jogo
+ 1163  javac Jogo.java 
+ 1164  java Jogo
+ 1165  cd unipampa/POO/aula10/supeHeroi/
+ 1166  javac Jogo.java 
+ 1167  java Jogo
+ 1168  javac Jogo.java 
+ 1169  java Jogo
+ 1170  rm -R ./*.class
+ 1171  javac Jogo.java 
+ 1172  java Jogo
+ 1173  ping 8.8.8.8
+ 1174  ls
+ 1175  ls -l
+ 1176  x=pwd
+ 1177  x
+ 1178  $x
+ 1179  cd unipampa/
+ 1180  x
+ 1181  $x
+ 1182  cd unipampa/comp_grafica/trabalhos/pre_3d/
+ 1183  ls
+ 1184  cd unipampa/comp_grafica/trabalhos/pre_3d/
+ 1185  g++ gerador.cpp -o g
+ 1186  ./g
+ 1187  wget http://if.ufrgs.br/~thielo/cara.obj
+ 1188  cat cara.obj 
+ 1189  cat http://if.ufrgs.br/~thielo/objeto.zip
+ 1190  g++ gerador.cpp -o g
+ 1191  ./g
+ 1192  g++ gerador.cpp -o g
+ 1193  ./g
+ 1194  g++ gerador.cpp -o g
+ 1195  ./g
+ 1196  g++ gerador.cpp -o g
+ 1197  ./g
+ 1198  cd unipampa/comp_grafica/trabalhos/pre_3d/
+ 1199  g++ gerador.cpp -o g
+ 1200  ./g
+ 1201  g++ gerador.cpp -o g
+ 1202  ./g
+ 1203  g++ gerador.cpp -o g
+ 1204  ./g
+ 1205  cd unipampa/comp_grafica/trabalhos/pre_3d/
+ 1206  g++ gerador.cpp -o g
+ 1207  x =g++ gerador.cpp -o g ./g
+ 1208  x ="g++ gerador.cpp -o g ./g"
+ 1209  x="g++ gerador.cpp -o g ./g"
+ 1210  $x
+ 1211  x="g++ gerador.cpp -o g && ./g"
+ 1212  &x
+ 1213  $x
+ 1214  g++ gerador.cpp -o g && ./g
+ 1215  x=g++ gerador.cpp -o g && ./g
+ 1216  x="g++ gerador.cpp -o g && ./g"
+ 1217  $x
+ 1218  clear
+ 1219  g++ gerador.cpp -o g && ./g
+ 1220  gpg
+ 1221  gpg --full-gen-key
+ 1222  cd anaconda3/lib/python3.6/
+ 1223  python random.py 
+ 1224  python 
+ 1225  python
+ 1226  cd unipampa/comp_grafica/trabalhos/pre_3d/
+ 1227  ls
+ 1228  ls
+ 1229  hystory
+ 1230  history
+ 1231  g++ gerador.cpp -o g && ./g
+ 1232  steam
+ 1233  ls -a
+ 1234  cat .steam
+ 1235  cat .steampath 
+ 1236  cd .steam
+ 1237  ls
+ 1238  ./steam.sh 
+ 1239  history>log.txt
+ 1240  atom log.txt 
+ 1241  python
+ 1242  cd unipampa/analise_de_algoritmos/
+ 1243  gcc desafio.c && ./a.out
+ 1244  cd VirtualBox\ VMs/
+ 1245  wget https://www.dropbox.com/s/86vaiqg75ygcvw5/paa.ova?dl=0
+ 1246  wget https://uc04f9689085e0b2d45f56833deb.dl.dropboxusercontent.com/cd/0/get/ARxOq_qgvpkxfANHCWrHgthFqJFpb5UFK1AP_wiPsddDFApTtRkZSQHX0p3a-KPm8dtt9yeuZaHvxjdUXJ6NP2iG1QWellHaNgcr3wL7bHTrqEZBzmnW282o_wURUzULf6BdiFrnpEzptSKP7_iK_qBUjCZvi5kQAgRyoormLvfA8VZLDRXAwjiWGHLGwUiv1Go/file?_download_id=4494925110938150502373254697737881153899488285327076430582439725447&_notify_domain=www.dropbox.com&dl=1
+ 1247  wget
+ 1248  wget --help
+ 1249  ping 8.8.8.8
+ 1250  cd unipampa/
+ 1251  cd ../Downloads/
+ 1252  sudo dpkg -i virtualbox-5.2_5.2.18-124319_Debian_stretch_amd64.deb 
+ 1253  cd unipampa/analise_de_algoritmos/
+ 1254  gcc desafio.c && ./a.out
+ 1255  pkill -9 wget
+ 1256  gcc desafio.c && ./a.out
+ 1257  ping 8.8.8.8
+ 1258  shutdown now
+ 1259  sudo shutdown now
+ 1260  python
+ 1261  cd Downloads/
+ 1262  ls
+ 1263  sha1sum wps-office_10.1.0.6757_amd64.deb 
+ 1264  cd ..
+ 1265  ls
+ 1266  mv Downloads/wps-office_10.1.0.6757_amd64.deb executaveis/wps.deb
+ 1267  cd executaveis/
+ 1268  sha1sum wps
+ 1269  sha1sum wps.deb
+ 1270  sudo dpkg -i wps.deb 
+ 1271  rstudio
+ 1272  sudo pip install fb
+ 1273  cd unipampa/analise_de_algoritmos/mochila/
+ 1274  g++ mochila_bruta.cpp 
+ 1275  clear
+ 1276  g++ mochila_bruta.cpp 
+ 1277  clear
+ 1278  g++ mochila_bruta.cpp 
+ 1279  clear
+ 1280  g++ mochila_bruta.cpp 
+ 1281  ./a.out < f4_l-d_kp_4_11 
+ 1282  g++ mochila_bruta.cpp 
+ 1283  ./a.out < f4_l-d_kp_4_11 
+ 1284  g++ mochila_bruta.cpp  && ./a.out 
+ 1285  g++ mochila_bruta.cpp  && ./a.out<<f4_l-d_kp_4_11 
+ 1286  g++ mochila_bruta.cpp  && ./a.out<f4_l-d_kp_4_11 
+ 1287  clear
+ 1288  g++ mochila_bruta.cpp  && ./a.out<f4_l-d_kp_4_11 
+ 1289  g++ mochila_bruta.cpp  && ./a.out<f6_l-d_kp_10_60 
+ 1290  sudo apt install vlc
+ 1291  cd unipampa/comp_grafica/trabalhos/pre_3d/
+ 1292  ls
+ 1293  g++ gerador.cpp -og  && ./g
+ 1294  clear
+ 1295  g++ gerador.cpp -og  && ./g
+ 1296  clear
+ 1297  g++ gerador.cpp -og  && ./g
+ 1298  clear
+ 1299  g++ gerador.cpp -og  && ./g
+ 1300  cd unipampa/TSSI/prng/
+ 1301  R hello.R 
+ 1302  Rscript hello.R 
+ 1303  rstudio
+ 1304  source activate r
+ 1305  Rscript FOptions_.R 
+ 1306  Rscript FOptions_.R >FOptions_.txt
+ 1307  Rscript rstream_.R 
+ 1308  R rstream_.R 
+ 1309  ls
+ 1310  cd unipampa/TSSI/prng/
+ 1311  Rscript RNGkind_.R 
+ 1312  Rscript RNGkind_.R >RNGkind_.txt
+ 1313  source activate r
+ 1314  rstudio
+ 1315  sudo apt install php
+ 1316  cd unipampa/analise_de_algoritmos/
+ 1317  gcc desafio.c && ./a.out 
+ 1318  cd unipampa/comp_grafica/trabalhos/openGl/
+ 1319  ls
+ 1320  g++ glutTest.cpp 
+ 1321  ls
+ 1322  g++ glutTest.cpp && ./a.out 
+ 1323  g++ glutTest.cpp -lGl -lGLU -lglut  && ./a.out 
+ 1324  g++ glutTest.cpp -lGL -lGLU -lglut  && ./a.out 
+ 1325  cd opensgx/opensgx/user/
+ 1326  ./test.sh test/openssl/server
+ 1327  atom test/openssl/
+ 1328  ./test.sh test/openssl/server_time
+ 1329  ./test.sh test/openssl/server
+ 1330  ./test.sh test/openssl/server_time
+ 1331  ./test.sh test/openssl/server
+ 1332  lsof -i:5566
+ 1333  ./test.sh test/openssl/server
+ 1334  ./test.sh test/openssl/server_time
+ 1335  lsof -i:5566
+ 1336  ./test.sh test/openssl/server_time
+ 1337  cd /sgx_files/
+ 1338  gcc tempo_gasto.c
+ 1339  ls
+ 1340  python
+ 1341  cd unipampa/TSSI/cliente_sgx/
+ 1342  ls
+ 1343  atom .
+ 1344  python
+ 1345  python cliente_tcp.py 
+ 1346  python cliente_tcp_time.py 
+ 1347  python cliente_tcp.py 
+ 1348  python cliente_tcp_time.py 
+ 1349  ls
+ 1350  cd unipampa/python/strin/
+ 1351  python unico.py 
+ 1352  python varios.py 
+ 1353  python unico.py 
+ 1354  python
+ 1355  cd unipampa/TSSI/cliente_sgx/
+ 1356  python cliente_tcp.py 
+ 1357  python cliente_tcp_time.py 
+ 1358  python cliente_tcp_time.py >tempo_cliente.txt
+ 1359  python cliente_tcp_time.py >tempo_cliente_noSGX.txt
+ 1360  python cliente_tcp_time.py 
+ 1361  pyhton]
+ 1362  pyhton
+ 1363  ''.join(random.choices(string.ascii_uppercase + string.digits, k=N))
+ 1364  python
+ 1365  ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(N))
+ 1366  ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(5))
+ 1367  python
+ 1368  cd opensgx/opensgx/user/test
+ 1369  cd ..
+ 1370  ./test.sh test/openssl/server_time
+ 1371  cd unipampa/TSSI/cliente_sgx/
+ 1372  python gera.py 
+ 1373  cd /sgx_files/
+ 1374  ls
+ 1375  gcc tempo_gasto.c
+ 1376  clear
+ 1377  gcc tempo_gasto.c
+ 1378  clear
+ 1379  gcc tempo_gasto.c
+ 1380  gcc tempo_gasto.c -lssl -lcrypto
+ 1381  clear
+ 1382  gcc tempo_gasto.c -lssl -lcrypto
+ 1383  clear
+ 1384  gcc tempo_gasto.c -lssl -lcrypto
+ 1385  g++ tempo_gasto.c -lssl -lcrypto
+ 1386  clear
+ 1387  g++ tempo_gasto.c -lssl -lcrypto
+ 1388  gcc tempo_gasto.c -lssl -lcrypto
+ 1389  clear
+ 1390  gcc tempo_gasto.c -lssl -lcrypto
+ 1391  clear
+ 1392  gcc tempo_gasto.c -lssl -lcrypto
+ 1393  apt-get install openssl
+ 1394  sudo apt-get install openssl
+ 1395  openssl version
+ 1396  gcc tempo_gasto.c -lssl -lcrypto
+ 1397  clear
+ 1398  gcc tempo_gasto.c -lssl -lcrypto
+ 1399  ./a.out 
+ 1400  gcc tempo_gasto.c -lssl -lcrypto
+ 1401  gcc tempo_gasto.c -lssl -lcrypto && ./a.out
+ 1402  python
+ 1403  python gera.py 
+ 1404  cd unipampa/analise_de_algoritmos/lista3/
+ 1405  g++ ex3.cpp &&./a.out
+ 1406  g++ ex6.cpp &&./a.out
+ 1407  cd unipampa/POO/aula12
+ 1408  ls
+ 1409  cd unipampa/POO/aula12
+ 1410  ls
+ 1411  javac ex5.java 
+ 1412  javac Produto.java 
+ 1413  javac Dispositivo.java 
+ 1414  javac DiscoOtico.java 
+ 1415  rm ./*.class
+ 1416  javac DiscoOtico.java 
+ 1417  rm ./*.class
+ 1418  javac Contador.java 
+ 1419  cd ..
+ 1420  cd aula13/
+ 1421  atom .
+ 1422  ls
+ 1423  cd .steam
+ 1424  ls
+ 1425  cd bin
+ 1426  ls
+ 1427  ./steam
+ 1428  cd ..
+ 1429  ls
+ 1430  sh steam.sh 
+ 1431  ./steam.sh 
+ 1432  pip install mypy
+ 1433  cd unipampa/comp_grafica/trabalhos/pre_3d/
+ 1434  g++ gerador.cpp 
+ 1435  sudo apt-get install lib32gcc-4.8-dev
+ 1436  sudo apt-get install lib32gcc*
+ 1437  sudo apt-get install lib32gcc-6*
+ 1438  sudo synaptic
+ 1439  sudo apt-get install libc6-dev:i386 gcc:i386
+ 1440  sudo apt -f remove
+ 1441  sudo apt upgrade
+ 1442  sudo apt update
+ 1443  sudo apt upgrade
+ 1444  sudo apt-get install libc6-dev:i386 gcc:i386
+ 1445  sudo apt install cpp
+ 1446  sudo apt autoremove
+ 1447  sudo apt-get install gcc-arm-linux-gnueabihf
+ 1448  sudo apt-get install gcc-i368*
+ 1449  sudo apt install qemu-user
+ 1450  qemu-user
+ 1451  cd /sgx_files/
+ 1452  atom .
+ 1453  gcc tempo_gasto.c -lssl -lcrypto
+ 1454  gcc tempo_gasto.c -lssl -lcrypto -m32
+ 1455  gcc tempo_gasto.c -m32  -lssl -lcrypto
+ 1456  qemu-i386 gcc
+ 1457  qemu-i386
+ 1458  qemu-i386 -h
+ 1459  cc
+ 1460  cc tempo_gasto.c 
+ 1461  cc tempo_gasto.c  -lssl -lcrypto
+ 1462  ls
+ 1463  rm a.out 
+ 1464  cc tempo_gasto.c  -lssl -lcrypto
+ 1465  lw
+ 1466  ls
+ 1467  ./a.out 
+ 1468  qemu-i386 a.out 
+ 1469  cat a.out 
+ 1470  ./a.out ARM a
+ 1471  ./a.out i386 a
+ 1472  cd opensgx/opensgx/user/
+ 1473  atom test.sh 
+ 1474  cd unipampa/comp_grafica/trabalhos/pre_3d/sudo apt-get install gcc-arm-linux-gnueabihf
+ 1475  ls
+ 1476  cd unipampa/TSSI/cliente_sgx/
+ 1477  ls
+ 1478  atom .
+ 1479  cd unip
+ 1480  cd unipampa/TSSI/cliente_sgx/
+ 1481  python cliente_tcp_time.py > tempo_cliente_qemu.txt
+ 1482  python cliente_tcp.py
+ 1483  python gera.py 
+ 1484  cd opensgx/opensgx/user/test/openssl/
+ 1485  ls
+ 1486  file server
+ 1487  file server_time
+ 1488  file server_time.c
+ 1489  cd /sgx_files/
+ 1490  ls
+ 1491  file a.out 
+ 1492  qemu-x86_64 a.out 
+ 1493  file a.out 
+ 1494  qemu-x86_64 a.out 
+ 1495  ./a.out 
+ 1496  qemu-x86_64 a.out 
+ 1497  python gera.py 
+ 1498  cd unipampa/TSSI/cliente_sgx/
+ 1499  python gera.py 
+ 1500  cd opensgx/opensgx/user/
+ 1501  ls
+ 1502  atom .
+ 1503  ./test.sh test/openssl/teste
+ 1504  clear
+ 1505  ./test.sh test/openssl/teste
+ 1506  clear
+ 1507  ./test.sh test/openssl/teste
+ 1508  ./test.sh test/openssl/server
+ 1509  cd unipampa/TSSI/cliente_sgx/
+ 1510  ls
+ 1511  python cliente_tcp.py 
+ 1512  cd /sgx_files/
+ 1513  gcc teste.c  -lssl -lcrypto
+ 1514  ./a.out
+ 1515  python
+ 1516  cd opensgx/opensgx/user/
+ 1517  ls
+ 1518  atom .
+ 1519  ./test.sh test/openssl/server
+ 1520  clear
+ 1521  ./test.sh test/openssl/server
+ 1522  clear
+ 1523  ./test.sh test/openssl/server
+ 1524  ./test.sh test/openssl/teste
+ 1525  ./test.sh test/openssl/server
+ 1526  cd unipampa/TSSI/cliente_sgx/
+ 1527  ls
+ 1528  atom .
+ 1529  python cliente_tcp.py 
+ 1530  pyhton
+ 1531  import socket
+ 1532  python
+ 1533  python cliente_tcp.py 
+ 1534  postgresql-server-dev-10
+ 1535  sudo   apt-get install postgresql-10
+ 1536  postgresql
+ 1537  psql
+ 1538  su
+ 1539  sudo atom /etc/passwd
+ 1540  psql -u administrator
+ 1541  psql -U administrator
+ 1542  psql -U PostgreSQL
+ 1543  psql -U postgres
+ 1544  su
+ 1545  sudo -u postgres -i
+ 1546  sudo -u postgres createuser felipeaq
+ 1547  psql -U felipeaq
+ 1548  psql -h localhost -U postgres
+ 1549  psql -h localhost -U felipeaq
+ 1550  sudo -u postgres createuser felipeaq
+ 1551  psql -h localhost -U felipeaq
+ 1552  sudo -u user_name psql db_name
+ 1553  sudo -u felipeaq psql 
+ 1554  sudo -u postgres psql
+ 1555  psql -h localhost -U postgres
+ 1556  sudo service postgresql restart
+ 1557  psql -h localhost -U postgres
+ 1558  psq
+ 1559  psql
+ 1560  psql -h localhost -U postgres
+ 1561  sudo apt autoremove
+ 1562  sudo apt-get install wget ca-certificates
+ 1563  wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+ 1564  echo"/etc/apt/sources.list.d/pgdg.list"
+ 1565  echo "/etc/apt/sources.list.d/pgdg.list"
+ 1566  echo "deb http://apt.postgresql.org/pub/repos/apt/ stretch-pgdg main"
+ 1567  echo "deb http://apt.postgresql.org/pub/repos/apt/ stretch-pgdg main">>/etc/apt/sources.list.d/pgdg.list
+ 1568  sudo echo "deb http://apt.postgresql.org/pub/repos/apt/ stretch-pgdg main">>/etc/apt/sources.list.d/pgdg.list
+ 1569  sudo gedit /etc/apt/sources.list.d/pgdg.list
+ 1570  sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+ 1571  sudo apt-get update
+ 1572  sudo apt-get upgrade
+ 1573  sudo apt-get install postgresql-10 pgadmin4   # on wheezy/jessie/trusty: pgadmin3
+ 1574  cd unipampa/TSSI/cliente_sgx/
+ 1575  python cliente_tcp
+ 1576  python cliente_tcp.py 
+ 1577  atom .
+ 1578  python cliente_tcp.py 
+ 1579  cd opensgx/opensgx/user/
+ 1580  atom .
+ 1581  ./test/openssl/server
+ 1582  ./test.sh test/openssl/server
+ 1583  clear
+ 1584  ./test.sh test/openssl/server
+ 1585  python
+ 1586  cd opensgx/opensgx/user/
+ 1587  ls
+ 1588  atom .
+ 1589  ./test.sh test/openssl/server
+ 1590  cd unipampa/TSSI/cliente_sgx/
+ 1591  atom .
+ 1592  ./test.sh test/openssl/server
+ 1593  python cliente_tcp.py 
+ 1594  ./test.sh test/openssl/server
+ 1595  python cliente_tcp.py 
+ 1596  ./test.sh test/openssl/server
+ 1597  python cliente_tcp.py 
+ 1598  python cliente_tcp_time.py 
+ 1599  python cliente_tcp.py 
+ 1600  fuser 5566/tcp
+ 1601  fuser 5566
+ 1602  fuser tcp
+ 1603  fuser 5566/tcp*
+ 1604  fuser 5566/tcp
+ 1605  cat fuser 5566/tcp
+ 1606  fuser 5566/tcp
+ 1607  fuser -k  5566/tcp
+ 1608  fuser -n tcp 5566
+ 1609  cd AndroidStudioProjects
+ 1610  ls
+ 1611  cd GloveGithub/
+ 1612  ls
+ 1613  cd GloveApps/
+ 1614  git pull
+ 1615  ls
+ 1616  cd /mnt/
+ 1617  ls
+ 1618  cd ..
+ 1619  cd /dev/
+ 1620  ls
+ 1621  ls tmp0
+ 1622  cat sdb
+ 1623  fdisk -l
+ 1624  sudo fdisk -l
+ 1625  terminal
+ 1626  gnome-text-editor 
+ 1627  mate-terminal
+ 1628  cd ~
+ 1629  ls
+ 1630  cd AndroidStudioProjects/GloveGithub/GloveApps/
+ 1631  al
+ 1632  ls
+ 1633  git clone git@github:mathiasbaldissera/VibrationDetection.git
+ 1634  git clone https://github.com/mathiasbaldissera/VibrationDetection.git
+ 1635  ls
+ 1636  ls -la
+ 1637  git commit -m "versao luva"
+ 1638  git add *
+ 1639  git commit -m "versao luva"
+ 1640  git push
+ 1641  git status
+ 1642  ls
+ 1643  cd VibrationDetection/
+ 1644  ls
+ 1645  cd ..
+ 1646  cp PredictorGlove/ VibrationDetection/glove
+ 1647  cp -r  PredictorGlove/ VibrationDetection/glove
+ 1648  cd VibrationDetection/
+ 1649  git add *
+ 1650  git commit -m "versao luva"
+ 1651  git push
+ 1652  cd ..
+ 1653  ls
+ 1654  cp -r VibrationDetection/ ../VibrationDetection/
+ 1655  ls
+ 1656  rm -r VibrationDetection/
+ 1657  sudo chmod 777 -R VibrationDetection/
+ 1658  rm -r VibrationDetection/
+ 1659  ls
+ 1660  cd ..
+ 1661  ls
+ 1662  cd VibrationDetection/
+ 1663  ls
+ 1664  cd ..
+ 1665  cd GloveApps/
+ 1666  git add *
+ 1667  git commit -m "desfazendo cagada"
+ 1668  ls
+ 1669  git status
+ 1670  git push
+ 1671  ls
+ 1672  cd ..
+ 1673  ls
+ 1674  cd VibrationDetection/
+ 1675  cd android-studio/bin/
+ 1676  ls
+ 1677  ./studio.sh 
+ 1678  desfazendo cagada
+ 1679  cd unipampa/comp_grafica/pre_3d
+ 1680  cd unipampa/comp_grafica/trabalhos/pre_3d/
+ 1681  ls
+ 1682  g++ gerador.cpp && ./a.out
+ 1683  clear
+ 1684  cela
+ 1685  clar
+ 1686  clear
+ 1687  g++ gerador.cpp && ./a.out
+ 1688  clear
+ 1689  g++ gerador.cpp && ./a.out
+ 1690  clear
+ 1691  g++ gerador.cpp && ./a.out
+ 1692  cd unipampa/comp_grafica/trabalhos/pre_3d/
+ 1693  g++ gerador.cpp && ./a.out
+ 1694  cd unipampa/comp_grafica/trabalhos/pre_3d/
+ 1695  ls
+ 1696  g++ gerador.cpp && ./a.out
+ 1697  cd unipampa/comp_grafica/trabalhos/pre_3d/
+ 1698  ls
+ 1699  g++ gerador.cpp && ./a.out>log.txt
+ 1700  g++ gerador.cpp 
+ 1701  g++ gerador.cpp && ./a.out
+ 1702  cd unipampa/comp_grafica/trabalhos/trab1/
+ 1703  ls
+ 1704  g++ gerador.cpp && ./a.out
+ 1705  cd pasta\ sem\ título/ObjToPPM-master
+ 1706  ls
+ 1707  g++ main.cpp obj_load.cpp file.cpp 
+ 1708  ./a.out 
+ 1709  ./a.out 1000 cara.obj ts.ppm
+ 1710  ./a.out 9000000 cara.obj ts.ppm
+ 1711  ./a.out 19 cara.obj ts.ppm
+ 1712  cd ../..
+ 1713  ls
+ 1714  cd -
+ 1715  cd ~/unipampa/comp_grafica/trabalhos/
+ 1716  ls
+ 1717  g++ gerador.cpp && ./a.out
+ 1718  ls
+ 1719  g++ gerador.cpp && ./a.out
+ 1720  cd trab1/
+ 1721  g++ gerador.cpp && ./a.out
+ 1722  clear
+ 1723  g++ gerador.cpp && ./a.out
+ 1724  g++ gerador77.cpp && ./a.out
+ 1725  g++ gerador.cpp && ./a.out
+ 1726  g++ gerador.cpp && ./a.out>log.txt
+ 1727  g++ gerador77.cpp && ./a.out>log2.txt
+ 1728  g++ gerador.cpp && ./a.out>log.txt
+ 1729  g++ gerador77.cpp && ./a.out>log2.txt
+ 1730  g++ gerador.cpp && ./a.out>log.txt
+ 1731  g++ gerador77.cpp && ./a.out>log2.txt
+ 1732  g++ gerador.cpp && ./a.out>log.txt
+ 1733  g++ gerador77.cpp && ./a.out>log2.txt
+ 1734  clear
+ 1735  g++ gerador77.cpp && ./a.out>log2.txt
+ 1736  g++ gerador77.cpp 
+ 1737  g++ gerador77.cpp && ./a.out 
+ 1738  clear
+ 1739  g++ gerador77.cpp && ./a.out 
+ 1740  g++ gerador77.cpp && ./a.out >log.txt
+ 1741  g++ gerador77.cpp 
+ 1742  g++ gerador77.cpp && ./a.out 
+ 1743  clear
+ 1744  g++ gerador77.cpp && ./a.out 
+ 1745  clear
+ 1746  g++ gerador77.cpp && ./a.out 
+ 1747  python
+ 1748  cd unipampa/linguagem\ c/
+ 1749  gcc sprinf.c && ./a.out
+ 1750  cd unipampa/linguagem\ c/
+ 1751  gcc sprinf.c && ./a.out
+ 1752  cd unipampa/TSSI/cliente_sgx/
+ 1753  atom .
+ 1754  cd opensgx/opensgx/user/atom .
+ 1755  cd opensgx/opensgx/user/
+ 1756  atom .
+ 1757  ./test.sh test/openssl/server
+ 1758  clear
+ 1759  ./test.sh test/openssl/server
+ 1760  clear
+ 1761  ./test.sh test/openssl/server
+ 1762  ./test.sh test/openssl/server_time
+ 1763  clear
+ 1764  ./test.sh test/openssl/server_time
+ 1765  cd  unipampa/TSSI/cliente_sgx/
+ 1766  ls
+ 1767  python cliente_tcp.py 
+ 1768  1 usuario 123
+ 1769  python cliente_tcp.py 
+ 1770  python cliente_tcp_time.py 
+ 1771  python cliente_tcp_time.py>tempo_cliente.txt
+ 1772  cat tempo_cliente.txt 
+ 1773  python cliente_tcp_time.py>tempo_cliente_qemu.txt
+ 1774  python cliente_tcp_time.py>tempo_cliente_noSGX.txt
+ 1775  python cliente_tcp_time.py
+ 1776  cat tempo_cliente.txt 
+ 1777  python cliente_tcp_time.py
+ 1778  python cliente_tcp_time.py>tempo_cliente_noSGX.txt
+ 1779  python cliente_tcp_time.py>tempo_cliente_qemu.txt
+ 1780  python gera.py 
+ 1781  cd /sgx_files/
+ 1782  ls
+ 1783  history>log.txt
+ 1784  gcc tempo_gasto.c -lssl -lcrypto
+ 1785  gcc server_time.c -lssl -lcrypto
+ 1786  rm a.out 
+ 1787  gcc server_time.c -lssl -lcrypto
+ 1788  qemu-x86_64 a.out 
+ 1789  gcc server_time.c -lssl -lcrypto
+ 1790  ./a.out 
+ 1791  clear
+ 1792  gcc server_time.c -lssl -lcrypto
+ 1793  rm a.out 
+ 1794  gcc server_time.c -lssl -lcrypto -o teste
+ 1795  ./teste 
+ 1796  gcc server_time.c -lssl -lcrypto -o teste
+ 1797  ./teste 
+ 1798  gcc server_time.c -lssl -lcrypto -o teste
+ 1799  ./teste 
+ 1800  rm teste
+ 1801  gcc server_time.c -lssl -lcrypto -o teste
+ 1802  ./teste 
+ 1803  gcc server_time.c -lssl -lcrypto -o teste
+ 1804  ./teste 
+ 1805  gcc server_time.c -lssl -lcrypto -o teste
+ 1806  gcc server_time.c -Wall -g -o program program.o -lssl -lcrypto
+ 1807  gcc server_time.c -Wall -g -o p -lssl -lcrypto
+ 1808  gcc server_time.c -lssl -lcrypto -o teste
+ 1809  rm teste
+ 1810  gcc server_time.c -lssl -lcrypto -o teste
+ 1811  ./teste 
+ 1812  gcc server_time.c -lssl -lcrypto -o teste
+ 1813  ./teste 
+ 1814  gcc server_time.c -lssl -lcrypto -o teste
+ 1815  ./teste 
+ 1816  gcc server_time.c -lssl -lcrypto -o teste
+ 1817  ./teste 
+ 1818  gcc teste.c 
+ 1819  gcc teste.c -lssl -lcrypto 
+ 1820  clear
+ 1821  gcc teste.c -lssl -lcrypto 
+ 1822  ls 
+ 1823  rm a.out 
+ 1824  gcc teste.c -lssl -lcrypto 
+ 1825  ls
+ 1826  ./a.out 
+ 1827  gcc teste.c -lssl -lcrypto 
+ 1828  ./a.out 
+ 1829  gcc teste.c -lssl -lcrypto 
+ 1830  clear
+ 1831  gcc teste.c -lssl -lcrypto 
+ 1832  ./a.out 
+ 1833  gcc server_time.c -lssl -lcrypto
+ 1834  clear
+ 1835  gcc server_time.c -lssl -lcrypto
+ 1836  clear
+ 1837  gcc server_time.c -lssl -lcrypto
+ 1838  ./a.out 
+ 1839  gcc server_time.c -lssl -lcrypto
+ 1840  ./a.out 
+ 1841  gcc server_time.c -lssl -lcrypto
+ 1842  ./a.out 
+ 1843  gcc server_time.c -lssl -lcrypto
+ 1844  ./a.out 
+ 1845  gcc server_time.c -lssl -lcrypto
+ 1846  ./a.out 
+ 1847  gcc server_time.c -lssl -lcrypto
+ 1848  ./a.out 
+ 1849  gcc server_time.c -lssl -lcrypto
+ 1850  clea
+ 1851  clear
+ 1852  gcc server_time.c -lssl -lcrypto
+ 1853  rm a.out 
+ 1854  gcc server_time.c -lssl -lcrypto
+ 1855  ./a.out 
+ 1856  gcc server_time.c -lssl -lcrypto
+ 1857  ./a.out 
+ 1858  gcc server_time.c -lssl -lcrypto
+ 1859  ./a.out 
+ 1860  qemu-x86_64 a.out 
+ 1861  python gera.py 
+ 1862  cd opensgx/opensgx/user/
+ 1863  ./test.sh test/openssl/server_time
+ 1864  rm test/openssl/server
+ 1865  ./test.sh test/openssl/server
+ 1866  ./test.sh test/openssl/server_time
+ 1867  cd ../..
+ 1868  ls
+ 1869  cd opensgx/
+ 1870  cd ..
+ 1871  find opensgx/*.asm
+ 1872  find opensgx/*.s
+ 1873  find -R  opensgx/*.s
+ 1874  find -e  opensgx/*.s
+ 1875  find -r  opensgx/*.s
+ 1876  find -name "opensgx/*.s"
+ 1877  cd /sgx_files/
+ 1878  ls
+ 1879  cc -S server_time.c 
+ 1880  ls
+ 1881  cc -S server_time.c a.asm
+ 1882  cc -S a.asm  server_time.c 
+ 1883  cc -S -o a.asm  server_time.c 
+ 1884  ls
+ 1885  cat a.asm
+ 1886  cd opensgx/opensgx/
+ 1887  cd user/
+ 1888  ls
+ 1889  ./test.sh test/openssl/server_time
+ 1890  cc -static -nostdlib -nostartfiles -Wl,-T,sgx.lds test/openssl/server_time.o -o test/openssl/server_time ../libsgx/sgx-entry.o ../libsgx/libssl.a ../libsgx/libcrypto.a ../libsgx/libsgx.a ../libsgx/libc-sgx.a
+ 1891  ./test.sh test/openssl/server_time
+ 1892  cc -c -g -Iinclude -Ishare/include -Wall -pedantic -Wno-unused-function -std=gnu11 -I../libsgx/include -I../libsgx/musl-libc/include -fno-stack-protector -static -fvisibility=hidden -I../libsgx/openssl/include -o test/openssl/server_time.o test/openssl/server_time.c
+ 1893  cc -S -o a.asm  -static -nostdlib -nostartfiles -Wl,-T,sgx.lds test/openssl/server_time.o -o test/openssl/server_time ../libsgx/sgx-entry.o ../libsgx/libssl.a ../libsgx/libcrypto.a ../libsgx/libsgx.a ../libsgx/libc-sgx.a
+ 1894  cc -c -g -Iinclude -Ishare/include -Wall -pedantic -Wno-unused-function -S -o a.asm  -std=gnu11 -I../libsgx/include -I../libsgx/musl-libc/include -fno-stack-protector -static -fvisibility=hidden -I../libsgx/openssl/include -o test/openssl/server_time.o test/openssl/server_time.c
+ 1895  cc -c -g -Iinclude -Ishare/include -Wall -pedantic -Wno-unused-function -S -o a.asm  -std=gnu11 -I../libsgx/include -I../libsgx/musl-libc/include -fno-stack-protector -static -fvisibility=hidden -I../libsgx/openssl/include test/openssl/server_time.c
+ 1896  ./test.sh test/openssl/server_time
+ 1897  cc -c -g -Iinclude -Ishare/include -Wall -pedantic -Wno-unused-function -std=gnu11 -I../libsgx/include -I../libsgx/musl-libc/include -fno-stack-protector -static -fvisibility=hidden -I../libsgx/openssl/include -o test/openssl/server_time.o test/openssl/server_time.c
+ 1898  cc -c -g -S  -Iinclude -Ishare/include -Wall -pedantic -Wno-unused-function -std=gnu11 -I../libsgx/include -I../libsgx/musl-libc/include -fno-stack-protector -static -fvisibility=hidden -I../libsgx/openssl/include -o test/openssl/server_time.o test/openssl/server_time.c
+ 1899  cc -c -g -S  -Iinclude -Ishare/include -Wall -pedantic -Wno-unused-function -std=gnu11 -I../libsgx/include -I../libsgx/musl-libc/include -fno-stack-protector -static -fvisibility=hidden -I../libsgx/openssl/include  test/openssl/server_time.o test/openssl/server_time.c
+ 1900  cc -c -g -S  -Iinclude -Ishare/include -Wall -pedantic -Wno-unused-function -std=gnu11 -I../libsgx/include -I../libsgx/musl-libc/include -fno-stack-protector -static -fvisibility=hidden -I../libsgx/openssl/include -o
+ 1901  cc -S  -static -nostdlib -nostartfiles -Wl,-T,sgx.lds test/openssl/server_time.o -o test/openssl/server_time ../libsgx/sgx-entry.o ../libsgx/libssl.a ../libsgx/libcrypto.a ../libsgx/libsgx.a ../libsgx/libc-sgx.a
+ 1902  cc  -static -nostdlib -nostartfiles -Wl,-T,sgx.lds test/openssl/server_time.o -o teste.asm ../libsgx/sgx-entry.o ../libsgx/libssl.a ../libsgx/libcrypto.a ../libsgx/libsgx.a ../libsgx/libc-sgx.a
+ 1903  cc  -static -nostdlib -nostartfiles -Wl,-T,sgx.lds test/openssl/server_time.o -o teste.asm ../libsgx/sgx-entry.o ../libsgx/libssl.a ../libsgx/libcrypto.a ../libsgx/libsgx.a ../libsgx/libc-sgx.a
+ 1904  cc -static -nostdlib -nostartfiles -Wl,-T,sgx.lds test/openssl/server_time.o -o test/openssl/server_time ../libsgx/sgx-entry.o ../libsgx/libssl.a ../libsgx/libcrypto.a ../libsgx/libsgx.a ../libsgx/libc-sgx.a
+ 1905  ./test.sh test/openssl/server_time
+ 1906  cc -static -nostdlib -nostartfiles -Wl,-T,sgx.lds test/openssl/server_time.o -o test/openssl/server_time ../libsgx/sgx-entry.o ../libsgx/libssl.a ../libsgx/libcrypto.a ../libsgx/libsgx.a ../libsgx/libc-sgx.a
+ 1907  ./test.sh test/openssl/server_time
+ 1908  cc -c -g -Iinclude -Ishare/include -Wall -pedantic -Wno-unused-function -std=gnu11 -I../libsgx/include -I../libsgx/musl-libc/include -fno-stack-protector -static -fvisibility=hidden -I../libsgx/openssl/include -o test/openssl/server_time.o test/openssl/server_time.c
+ 1909  cc -static -nostdlib -nostartfiles -Wl,-T,sgx.lds test/openssl/server_time.o -S  -o aaasgx.asm ../libsgx/sgx-entry.o ../libsgx/libssl.a ../libsgx/libcrypto.a ../libsgx/libsgx.a ../libsgx/libc-sgx.a
+ 1910  cc -static -nostdlib -nostartfiles -Wl,-T,sgx.lds test/openssl/server_time.o -S  -o test/openssl/aaasgx.asm ../libsgx/sgx-entry.o ../libsgx/libssl.a ../libsgx/libcrypto.a ../libsgx/libsgx.a ../libsgx/libc-sgx.a
+ 1911  cc -static -nostdlib -nostartfiles -Wl,-T,sgx.lds test/openssl/server_time.o  -o test/openssl/aaasgx.asm ../libsgx/sgx-entry.o ../libsgx/libssl.a ../libsgx/libcrypto.a ../libsgx/libsgx.a ../libsgx/libc-sgx.a
+ 1912  cc -S  -static -nostdlib -nostartfiles -Wl,-T,sgx.lds test/openssl/server_time.o  -o test/openssl/aaasgx.asm ../libsgx/sgx-entry.o ../libsgx/libssl.a ../libsgx/libcrypto.a ../libsgx/libsgx.a ../libsgx/libc-sgx.a
+ 1913  cc   -static -nostdlib -nostartfiles -Wl,-T,sgx.lds test/openssl/server_time.o  -o test/openssl/aaasgx.asm ../libsgx/sgx-entry.o ../libsgx/libssl.a ../libsgx/libcrypto.a ../libsgx/libsgx.a ../libsgx/libc-sgx.a
+ 1914  cc   -static -nostdlib -nostartfiles -Wl,-T,sgx.lds test/openssl/server_time.o  -o test/openssl/aaasgx.asm ../libsgx/sgx-entry.o ../libsgx/libssl.a ../libsgx/libcrypto.a ../libsgx/libsgx.a ../libsgx/libc-sgx.a  -S
+ 1915  cc -c -g -Iinclude -Ishare/include -Wall -pedantic -Wno-unused-function -std=gnu11 -I../libsgx/include -I../libsgx/musl-libc/include -fno-stack-protector -static -fvisibility=hidden -I../libsgx/openssl/include -o test/openssl/SGX.asm test/openssl/server_time.c -S
+ 1916  ./zzz.sh
+ 1917  sudo chmod +x zzz.sh 
+ 1918  ./zzz.sh
+ 1919  cat /home/felipeaq/opensgx/opensgx/user/test
+ 1920  ./zzz.sh
+ 1921  cc -c -g -Iinclude -Ishare/include -Wall -pedantic -Wno-unused-function -std=gnu11 -I../libsgx/include -I../libsgx/musl-libc/include -fno-stack-protector -static -fvisibility=hidden -I../libsgx/openssl/include -o test/openssl/SGX.asm test/openssl/server_time.c -S
+ 1922  cd unipampa/linguagem\ c/split_string/
+ 1923  g++ split_string.cpp 
+ 1924  ./a.out 
+ 1925  g++ split_string.cpp && ./a.out 
+ 1926  g++ split_string.cpp && ./a.out
+ 1927  g++ split_string.cpp && ./a.out 
+ 1928  cd unipampa/comp_grafica/trabalhos/trab1/
+ 1929  g++ gerador77.cpp &&./a.out
+ 1930  clear
+ 1931  g++ gerador77.cpp &&./a.out
+ 1932  clear
+ 1933  g++ gerador77.cpp &&./a.out
+ 1934  caja .
+ 1935  g++ gerador77.cpp &&./a.out
+ 1936  cd unipampa/comp_grafica/trabalhos/trab1/
+ 1937  ls
+ 1938  cc gerador77.cpp 
+ 1939  g++ gerador77.cpp 
+ 1940  c++ gerador77.cpp 
+ 1941  ls
+ 1942  rm a.out 
+ 1943  c++ gerador77.cpp 
+ 1944  ls
+ 1945  ./a.out 
+ 1946  g++ && ./a.out 
+ 1947  g++ gerador77.cpp && ./a.out 
+ 1948  ls
+ 1949  rm -r teste_rotate_x/*
+ 1950  rm -r teste_rotate_y/*
+ 1951  rm -r teste_rotate_z/*
+ 1952  rm -r teste_rotate_all/*
+ 1953  g++ gerador77.cpp && ./a.out 
+ 1954  caja .
+ 1955  g++ gerador77.cpp && ./a.out 
+ 1956  c
+ 1957  cc
+ 1958  VBoxManage
+ 1959  cd VirtualBox\ VMs/jjj/cliente/Snapshots/
+ 1960  ls
+ 1961  VBoxManage clonehd \{1168a0fb-046e-47a3-882a-40bfaeb0b58f\}.vdi cliente.vdi
+ 1962  sudo apt remove virtualbox
+ 1963  sudo apt-get remove virtualbox-\*
+ 1964  sudo apt-get purge virtualbox-\*
+ 1965  sudo apt autoremove
+ 1966  cd Downloads/
+ 1967  sudo dpkg -i virtualbox-5.2_5.2.18-124319_Debian_stretch_amd64.deb 
+ 1968  sudo apt -f install
+ 1969  sudo dpkg -i virtualbox-5.2_5.2.18-124319_Debian_stretch_amd64.deb 
+ 1970  find Downloads/*.deb
+ 1971  wget https://github.com/turnkeylinux/turnkey-keyring/raw/master/turnkey-release-keyring.gpg
+ 1972  apt-key add turnkey-release-keyring.gpg
+ 1973  sudo apt-key add turnkey-release-keyring.gpg
+ 1974  deb http://archive.turnkeylinux.org/debian squeeze main
+ 1975  sudo deb http://archive.turnkeylinux.org/debian squeeze main
+ 1976  apt-get update
+ 1977  sudo apt-get update
+ 1978  poweriso
+ 1979  poweriso -?
+ 1980  ls
+ 1981  cd VirtualBox\ VMs/jjj/cliente/
+ 1982  ls
+ 1983  cd Snapshots/
+ 1984  ls
+ 1985  poweriso -?
+ 1986  poweriso convert {1168a0fb-046e-47a3-882a-40bfaeb0b58f}.vdi cliente.iso
+ 1987  poweriso convert {1168a0fb-046e-47a3-882a-40bfaeb0b58f}.vdi -o  cliente.iso -ot iso
+ 1988  poweriso convert \{1168a0fb-046e-47a3-882a-40bfaeb0b58f\}.vdi -o  cliente.iso -ot iso
+ 1989  cd ..
+ 1990  cd ../../..
+ 1991  ls
+ 1992  cd VirtualBox\ VMs/cliente/
+ 1993  ls
+ 1994  poweriso convert cliente.vdi -o  cliente.iso -ot iso
+ 1995  poweriso convert /home/felipeaq/VirtualBox\ VMs/cliente/cliente.vdi -o  cliente.iso -ot iso
+ 1996  apt-get install tklpatch
+ 1997  sudo apt-get install tklpatch
+ 1998  cd unipampa/comp_grafica/trabalhos/trab1/
+ 1999  ls
+ 2000  g++ gerador77.cpp 
+ 2001  clear
+ 2002  g++ gerador77.cpp 
+ 2003  clea
+ 2004  clear
+ 2005  g++ gerador77.cpp 
+ 2006  clear
+ 2007  g++ gerador77.cpp 
+ 2008  clear
+ 2009  g++ gerador77.cpp 
+ 2010  clear
+ 2011  celar
+ 2012  clear
+ 2013  g++ gerador77.cpp 
+ 2014  ./a.out 
+ 2015  g++ gerador77.cpp 
+ 2016  ./a.out 
+ 2017  g++ gerador77.cpp 
+ 2018  ./a.out 
+ 2019  g++ gerador77.cpp 
+ 2020  g++ gerador77.cpp && ./a.out 
+ 2021  clear
+ 2022  g++ gerador77.cpp && ./a.out 
+ 2023  g++ gerador77.cpp &
+ 2024  g++ gerador77.cpp 
+ 2025  clear
+ 2026  g++ gerador77.cpp 
+ 2027  clear
+ 2028  g++ gerador77.cpp 
+ 2029  g++ gerador77.cpp && ./a.out 
+ 2030  caja .
+ 2031  g++ gerador77.cpp && ./a.out 
+ 2032  cd ..
+ 2033  history >log.txt
