@@ -13,12 +13,12 @@
 
 
 #define rotate_angle(a1,b1,a2,b2,a3,b3,angle) {\
-  double a1temp=a1*-sin(angle)+b1*cos(angle);\
-  double b1temp=a1*cos(angle)+b1*sin(angle);\
-  double a2temp=a2*-sin(angle)+b2*cos(angle);\
-  double b2temp=a2*cos(angle)+b2*sin(angle);\
-  double a3temp=a3*-sin(angle)+b3*cos(angle);\
-  double b3temp=a3*cos(angle)+b3*sin(angle);\
+  double a1temp=b1*-sin(angle)+a1*cos(angle);\
+  double b1temp=b1* cos(angle)+a1*sin(angle);\
+  double a2temp=b2*-sin(angle)+a2*cos(angle);\
+  double b2temp=b2* cos(angle)+a2*sin(angle);\
+  double a3temp=b3*-sin(angle)+a3*cos(angle);\
+  double b3temp=b3* cos(angle)+a3*sin(angle);\
   \
   a1=a1temp;\
   a2=a2temp;\
@@ -86,6 +86,18 @@ Imagem::Imagem(std::string tipo, int M, int N, int max, vector<vector <tuple <in
   this->meio=make_pair(N/2,M/2);
   this->height=N;
   width=M;
+  //cout<<M<<" "<<N<<endl;
+}
+
+Imagem::Imagem(std::string tipo, int M, int N, int max, vector<vector <tuple <int,int,int> > >img,int posicao_objeto_x,int posicao_objeto_y){
+  this->tipo=tipo;
+  this->M=M;
+  this->N=N;
+  this->max=max;
+  this ->img=img;
+  this->meio=make_pair(posicao_objeto_x,posicao_objeto_y);
+  this->height=M;
+  width=N;
   //cout<<M<<" "<<N<<endl;
 }
 Imagem::Imagem(){
@@ -414,7 +426,7 @@ tuple<double,double,double,double,double,double,double,double,double> Imagem::ro
   return make_tuple(x1,y1,z1,x2,y2,z2,x3,y3,z3);
 }
 
-double Imagem::dot_product(tuple<double,double,double,double,double,double,double,double,double>  ttd){
+double Imagem::cross_product(tuple<double,double,double,double,double,double,double,double,double>  ttd,double l1, double l2, double l3){
 
   double vx=get<3>(ttd)-get<0>(ttd),
   vy=get<4>(ttd)-get<1>(ttd),
@@ -427,14 +439,38 @@ double Imagem::dot_product(tuple<double,double,double,double,double,double,doubl
   double ny = (vz*wx)-(vx*wz);
   double nz = (vx*wy)-(vy*wx);
 
+  double a=sqrt(pow(nx,2)+pow(ny,2)+pow(nz,2));
+  nx=nx/a;
+  ny=ny/a;
+  nz=nz/a;
 
 
-  return nx+ny+nz;
+  double cx=(get<0>(ttd)+get<3>(ttd)+get<6>(ttd))/3;
+  double cy=(get<1>(ttd)+get<4>(ttd)+get<7>(ttd))/3;
+  double cz=(get<2>(ttd)+get<5>(ttd)+get<8>(ttd))/3;
+
+
+  double lx= cx-l1;
+  double ly= cy-l2;
+  double lz= cz-l3;
+
+  double la  =sqrt(pow(lx,2)+pow(ly,2)+pow(lz,2));
+
+  lx=lx/la;
+  ly=ly/la;
+  lz=lz/la;
+
+
+
+
+
+
+  return nx*lx+ny*ly+nz*lz;
 }
 
 
 void Imagem::triangle3d(tuple<double,double,double,double,double,double,double,double,double>  triangle_to_draw,
-  double z0, double s,tuple <int,int,int> color,double color_scale){
+  double z0, double s,tuple <int,int,int> color,double l1, double l2, double l3){
 
   double x1=get<0>(triangle_to_draw);
   double y1=get<1>(triangle_to_draw);
@@ -451,7 +487,7 @@ void Imagem::triangle3d(tuple<double,double,double,double,double,double,double,d
 
 
 
-  int color_offset=int(dot_product(triangle_to_draw)*color_scale);
+  double color_offset=cross_product(triangle_to_draw,l1,l2,l3)/3;
   //cout<<color_offset<<" - ";
 
 
@@ -466,9 +502,9 @@ void Imagem::triangle3d(tuple<double,double,double,double,double,double,double,d
   //" ********** "<<x1p<<" "<<y1p<<" "<<x2p<<" "<<y2p<<" "<<x3p<<" "<<y3p<<" "<<"------------"<<
   //"y2p="<<y2p<<"="<<"("<<s<<"*"<<y2<<"/"<<"("<<z2<<"+"<<z0<<"))"<<"+"<<meio.second<<endl;
 
-  get<0>(color)+=color_offset;
-  get<1>(color)+=color_offset;
-  get<2>(color)+=color_offset;
+  get<0>(color)=(int)(color_offset*get<0>(color));
+  get<1>(color)=(int)(color_offset*get<1>(color));
+  get<2>(color)=(int)(color_offset*get<2>(color));
 
 
   fill_triangle(make_pair(x1p,y1p),make_pair(x2p,y2p),make_pair(x3p,y3p),color);
@@ -477,9 +513,9 @@ void Imagem::triangle3d(tuple<double,double,double,double,double,double,double,d
 
 
 
- Imagem Imagem::criador_obj  (string arquivo,int M, int N,double posicao_objeto_x,
-  double posicao_objeto_y,double escala,double theta,double phi,
-  double omega,double perspectiva,double color_scale){
+ Imagem Imagem::criador_obj  (string arquivo,int M, int N,int posicao_objeto_x,
+  int posicao_objeto_y,double escala,double theta,double phi,
+  double omega,double perspectiva,double l1, double l2, double l3){
 
   vector<vector<tuple<int,int,int> > > img(M,vector <tuple <int,int,int>  >(N,make_tuple(255,255,255)));
 
@@ -524,6 +560,9 @@ void Imagem::triangle3d(tuple<double,double,double,double,double,double,double,d
       f.push_back(make_tuple(v_f[0],v_f[1],v_f[2]));
 
       for (uint i=4;i<linha.size();i++){
+        if(linha[i]=="#")
+          break;
+
         v_f.push_back(stoul (linha[i]));
         f.push_back(make_tuple(v_f[i-3],v_f[i-2],v_f[i-1]));
       }
@@ -532,7 +571,7 @@ void Imagem::triangle3d(tuple<double,double,double,double,double,double,double,d
 
   vector< tuple<double,double,double,double,double,double,double,double,double> > teste_v;
 
-  Imagem imagem ("P3",  M,  N, 255, img);
+  Imagem imagem ("P3",  M,  N, 255, img,posicao_objeto_x,posicao_objeto_y);
 
   priority_queue <tuple<double,double,double,double,double,double,double,double,double>,
   vector<tuple<double,double,double,double,double,double,double,double,double> >,
@@ -546,13 +585,21 @@ void Imagem::triangle3d(tuple<double,double,double,double,double,double,double,d
     triangle_to_draw.push(imagem.rotate(v[get<0>(t)],v[get<1>(t)],v[get<2>(t)],theta,phi,omega));
   }
 
-
+  if (triangle_to_draw.empty()){
+    cout<< "imagem não existe"<<endl;
+    exit(1);
+  }
+  double perspectiva_max=perspectiva-max_z(triangle_to_draw.top());
+  if (perspectiva_max<1){
+    cout<< "aumente a perspectiva. valor  minimo: "<<max_z(triangle_to_draw.top())+1.125 <<endl;
+    exit(1);
+  }
 
   while(!triangle_to_draw.empty()){
 
     //cout<<get<2>(triangle_to_draw.top())<<" "<<" "<<get<5>(triangle_to_draw.top())<<" "<<" "<<get<8>(triangle_to_draw.top())<<endl;
 
-    imagem.triangle3d(triangle_to_draw.top(),perspectiva,escala,make_tuple(127,127,127),color_scale);
+    imagem.triangle3d(triangle_to_draw.top(),perspectiva,escala,make_tuple(255,255,255),l1,l2,l3);
     triangle_to_draw.pop();
   }
 
@@ -570,46 +617,20 @@ void Imagem::triangle3d(tuple<double,double,double,double,double,double,double,d
 
 
 
-int main(){
+int main(int argc,char* argv[]){
 
 
-  //teste(x);
-  //cout<<x<<endl;
 
-/*  for (double x=0;x<6.29;x+=0.5){
-    Imagem d3d = Imagem::criador_obj("cara.obj",1000,1000,0,0,600,x,2,2,3.0,1200);
-    d3d.salvar_imagem_bin("teste_rotate_x/"+to_string(int(x*2))+".ppm");
+  if (argc<15){
+    cout<< "para executar digite entrada saida altura largura centro_x contro_y escala theta phi omega perspectiva p1_luz p2_luz p3_luz"<<endl;
+    cout<<" exemplo de execução ./programa elephant.obj saida.ppm 2000 2000 500 700 600 3.14 3.14 0 30 1 1 1"<<endl;
+    return 1;
   }
 
-  for (double x=0;x<6.29;x+=0.5){
-    Imagem d3d = Imagem::criador_obj("cara.obj",1000,1000,0,0,600,0,x,0,3.0,1200);
-    d3d.salvar_imagem_bin("teste_rotate_y/"+to_string(int(x*2))+".ppm");
-  }
-
-  for (double x=0;x<6.29;x+=0.5){
-    Imagem d3d = Imagem::criador_obj("cara.obj",1000,1000,0,0,600,2,2,x,3.0,1200);
-    d3d.salvar_imagem_bin("teste_rotate_z/"+to_string(int(x*2))+".ppm");
-  }
-
-
-  for (double x=0;x<3.15;x+=0.5){
-    Imagem d3d = Imagem::criador_obj("DINO2.OBJ",1000,1000,0,0,200,x,x,x,20.0,1);
-    d3d.salvar_imagem_bin("teste_rotate_all/"+to_string(int(x*2))+".ppm");
-  }//mostratra para o professor
-
-
-  for (double x=0;x<3.15;x+=0.5){
-    Imagem d3d = Imagem::criador_obj("DINO2.OBJ",1000,1000,0,0,200,x,x,x,20.0,1);
-    d3d.salvar_imagem_bin("teste_rotate_all/"+to_string(int(x*2))+".ppm");
-  }*/
-
-  for (double x=0;x<3.15;x+=0.5){
-    Imagem d3d = Imagem::criador_obj("elephant.obj",2000,2000,0,0,1200,x,x,x,50.0,30);
-    d3d.salvar_imagem_bin("teste_ele_all/"+to_string(int(x*2))+".ppm");
-  }
-
-  Imagem d3d = Imagem::criador_obj("elephant.obj",2000,2000,0,0,1200,0,0,0,50.0,60);
-  d3d.salvar_imagem_bin("z_dino.ppm");
+  Imagem d3d = Imagem::criador_obj(argv[1],stoi(argv[3]),stoi(argv[4]),stoi(argv[5])
+  ,stoi(argv[6]),stod(argv[7]),stod(argv[8]),stod(argv[9]),stod(argv[10]),
+  stod(argv[11]),stod(argv[12]),stod(argv[13]),stod(argv[14]));
+  d3d.salvar_imagem_bin(argv[2]);
 
   return 0;
 }

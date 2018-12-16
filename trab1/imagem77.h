@@ -15,6 +15,7 @@ public:
 class Imagem{
 public:
   Imagem(string tipo, int M, int N, int max, vector<vector <tuple <int,int,int> > >img);
+  Imagem(string tipo, int M, int N, int max, vector<vector <tuple <int,int,int> > >img,int posicao_objeto_x,int posicao_objeto_y);
   Imagem();
   ~Imagem();
   static Imagem leitor(string arquivo);
@@ -22,7 +23,7 @@ public:
   static Imagem degrade(int M, int N, int max,int cor);
   static Imagem arco(int M, int N, int max);
   static Imagem leitor_bin  (string arquivo);
-  static Imagem criador_obj  (string arquivo,int resolucao_x=1000, int resolucao_y=1000,double posicao_objeto_x=0,double posicao_objeto_y=0,double escala=600,double theta=0,double phi=0, double omega=0,double perspectiva=2.0,double color_scale=100.0);
+  static Imagem criador_obj  (string arquivo,int resolucao_x=1000, int resolucao_y=1000,int posicao_objeto_x=500,int posicao_objeto_y=500,double escala=600,double theta=0,double phi=0, double omega=0,double perspectiva=2.0,double l1=1, double l2=1, double l3=1);
   void line_fast(int x1, int y1, int x2, int y2, tuple<int,int,int> color);
   static Imagem leitor_labirinto(string arquivo,Imagem cerca, Imagem livre);
   static void sem_shape(vector<vector <tuple <int,int,int> > > &img,string simbol,int N);
@@ -38,11 +39,11 @@ public:
   bool verifica_limite(int px, int py);
   bool mesma_cor(int px,int py,tuple<int,int,int> old_color);
   static Imagem parser (string arquivo);
-  void triangle3d(tuple<double,double,double,double,double,double,double,double,double>  triangle_to_draw,double z0,  double s,tuple <int,int,int> color,double color_scale);
+  void triangle3d(tuple<double,double,double,double,double,double,double,double,double>  triangle_to_draw,double z0,  double s,tuple <int,int,int> color,double l1, double l2, double l3);
 
   tuple<double,double,double,double,double,double,double,double,double> rotate(tuple<double,double,double> p1, tuple<double,double,double> p2, tuple<double,double,double> p3,double theta=0, double phi=0, double omega=0);
 
-  double dot_product(tuple<double,double,double,double,double,double,double,double,double>  triangle_to_draw);
+  double cross_product(tuple<double,double,double,double,double,double,double,double,double>  triangle_to_draw,double l1, double l2, double l3);
 
 
     //void Imagem::draw_triangle3d(tuple<double,double,double> p1,tuple<double,double,double> p2,

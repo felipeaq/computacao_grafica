@@ -54,6 +54,7 @@ Imagem Imagem::gerador_aleatorio (int M, int N, int max=255){
   return Imagem ("P3",M,N,max,img);
 
 }
+<<<<<<< HEAD
  Imagem Imagem::leitor_labirinto(string arquivo,Imagem cerca, Imagem livre){
 
   ifstream in(arquivo);
@@ -142,6 +143,10 @@ void Imagem::com_shape(vector<vector <tuple <int,int,int> > > &img,string simbol
 
 }
 
+=======
+
+
+>>>>>>> 2d7c6f3ddeda47345b5a988787a4b2915fe17ce6
 Imagem Imagem::degrade (int M, int N, int max=255,int cor=0){
   int cores[] = {0,0,0};
   srand (time(NULL));
@@ -228,11 +233,16 @@ void Imagem::inverter_cor(){
 
 
 
+<<<<<<< HEAD
 
 
 
 int main(){
   /*Imagem gerador=Imagem::gerador_aleatorio(20,10);
+=======
+int main(){
+  Imagem gerador=Imagem::gerador_aleatorio(20,10);
+>>>>>>> 2d7c6f3ddeda47345b5a988787a4b2915fe17ce6
   gerador.salvar_imagem("ex.ppm");
   Imagem ex = Imagem::leitor("ex.ppm");
   ex.inverter_cor();
@@ -240,11 +250,15 @@ int main(){
 
   Imagem degrade=Imagem::degrade(254,  30);
   degrade.salvar_imagem("degrade.ppm");
+<<<<<<< HEAD
   Imagem::arco(1024,  30).salvar_imagem("arco.ppm");*/
   Imagem bush= Imagem::leitor("bush.ppm");
   Imagem mato= Imagem::leitor("mato.ppm");
 
   Imagem::leitor_labirinto("maze.txt",bush,mato).salvar_imagem("maze.ppm");
+=======
+  Imagem::arco(1024,  30).salvar_imagem("arco.ppm");
+>>>>>>> 2d7c6f3ddeda47345b5a988787a4b2915fe17ce6
 
 
 
